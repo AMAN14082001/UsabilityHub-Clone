@@ -324,3 +324,25 @@ header {
     color: #b9cde4;
     margin-top: 20px;
 }
+
+/* footer */
+
+footer {
+    padding: 80px var(--padding-inline-section) 80px;
+    background-color: #ebf2fa;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.link-column a{
+    color: #586d7f;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
