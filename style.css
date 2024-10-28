@@ -309,20 +309,13 @@ header {
 
 /* cta section */
 
-.cta-section {
-    background-color: #183b54;
+.cta-section{
     padding: 120px var(--padding-inline-section) 80px;
 }
 
-.cta-section-container {
+.cta{
     flex-direction: column;
     gap: 40px;
-    color: white;
-}
-
-.cta-section-container p {
-    color: #b9cde4;
-    margin-top: 20px;
 }
 
 /* footer */
