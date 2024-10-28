@@ -346,3 +346,26 @@ footer {
     align-items: flex-start;
     justify-content: space-between;
 }
+
+/* sub footer */
+
+.subfooter{
+    background-color: #b9cde4;
+    padding: 20px 60px 20px;
+    font-size: 0.9rem;
+}
+
+.subfooter-container{
+    justify-content: space-evenly;
+}
+
+.subfooter-options{
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.social-media{
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
