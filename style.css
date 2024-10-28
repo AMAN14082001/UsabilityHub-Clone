@@ -131,7 +131,7 @@ ul {
     width: 180px;
 }
 
-.developer{
+.tester{
     margin-left: 10px;
     padding: 7px 10px 4px 10px; 
     background-color: #eaf2fd;
@@ -197,7 +197,9 @@ header {
 /* features section */
 
 .features-section {
-    margin-top: 60px;
+    margin-block: 60px;
+    padding-block: 50px;
+    /* margin-top: 60px; */
     padding: 80px var(--padding-inline-section) 0;
     background-image: url(./assets/asset\ 32.svg);
     background-repeat: no-repeat;
@@ -206,6 +208,7 @@ header {
 }
 
 .features-header {
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -217,7 +220,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    margin-top: 30px;
+    margin-top: 40px;
+    padding-inline: 40px;
 }
 
 .features-card {
@@ -228,7 +232,7 @@ header {
 }
 
 .features-card img {
-    width: 60px;
+    width: 40px;
 }
 
 /* big features section */
@@ -301,4 +305,22 @@ header {
     left: 20px;
     right: 20px;
     color: white;
+}
+
+/* cta section */
+
+.cta-section {
+    background-color: #183b54;
+    padding: 120px var(--padding-inline-section) 80px;
+}
+
+.cta-section-container {
+    flex-direction: column;
+    gap: 40px;
+    color: white;
+}
+
+.cta-section-container p {
+    color: #b9cde4;
+    margin-top: 20px;
 }
