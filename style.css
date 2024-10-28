@@ -137,3 +137,30 @@ ul {
     justify-content: end;
     gap: 40px;
 }
+
+/* header section */
+
+header {
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-section {
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left {
+    max-width: 40vw;
+}
+
+.header-left h1 {
+    margin: 20px 0;
+}
+
+.get-started-button {
+    margin-top: 20px;
+}
+
+.header-right img {
+    width: 600px;
+}
