@@ -1,11 +1,31 @@
 @media screen and (max-width: 991px) {
 
+    h3{
+        font-size: 1.2rem;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
+    
+    p{
+        font-size: 1rem;
+    }
 
 }
 
 @media screen and (max-width: 479px) {
-    
+
+    :root{
+        --padding-inline-section: 10px;
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    h2, h3{
+        font-size: 1.5rem;
+    }
+
 }
